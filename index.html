@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Маринин Евгений - Резюме</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body {
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			line-height: 1.6;
+			color: #333;
+			max-width: 900px;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: #f8f9fa;
+		}
+
+		header {
+			text-align: center;
+			margin-bottom: 40px;
+			padding-bottom: 20px;
+			border-bottom: 2px solid #e9ecef;
+		}
+
+		h1 {
+			color: #2c3e50;
+			font-size: 2.5em;
+			margin-bottom: 10px;
+		}
+
+		h2 {
+			color: #34495e;
+			margin: 30px 0 15px 0;
+			padding-bottom: 10px;
+			border-bottom: 1px solid #e9ecef;
+		}
+
+		h3 {
+			color: #2c3e50;
+			margin: 25px 0 10px 0;
+		}
+
+		h4 {
+			color: #495057;
+			margin: 20px 0 10px 0;
+		}
+
+		.contact-info {
+			background: #fff;
+			padding: 20px;
+			border-radius: 8px;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+			margin-bottom: 20px;
+		}
+
+		.contact-info p {
+			margin: 5px 0;
+		}
+
+		.project {
+			background: #fff;
+			padding: 20px;
+			margin-bottom: 20px;
+			border-radius: 8px;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		}
+
+		.tech-stack {
+			background: #f8f9fa;
+			padding: 15px;
+			border-radius: 6px;
+			margin: 15px 0;
+		}
+
+		ul {
+			list-style-type: none;
+			padding-left: 20px;
+		}
+
+		li {
+			margin-bottom: 8px;
+			position: relative;
+		}
+
+		li:before {
+			content: "•";
+			color: #007bff;
+			font-weight: bold;
+			display: inline-block;
+			width: 1em;
+			margin-left: -1em;
+		}
+
+		.links {
+			margin: 10px 0;
+		}
+
+		.links a {
+			color: #007bff;
+			text-decoration: none;
+			margin-right: 15px;
+		}
+
+		.links a:hover {
+			text-decoration: underline;
+		}
+
+		.education-item,
+		.skills-list {
+			background: #fff;
+			padding: 20px;
+			margin-bottom: 20px;
+			border-radius: 8px;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		}
+
+		.personal-info {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+			gap: 10px;
+			margin-bottom: 20px;
+		}
+
+		.personal-info div {
+			background: #fff;
+			padding: 15px;
+			border-radius: 6px;
+			box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+		}
+
+		@media (max-width: 768px) {
+			body {
+				padding: 15px;
+			}
+
+			h1 {
+				font-size: 2em;
+			}
+
+			.personal-info {
+				grid-template-columns: 1fr;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>Маринин Евгений</h1>
+	</header>
+
+	<section class="personal-info">
+		<div><strong>Локация:</strong> Россия, Нижний Новгород</div>
+		<div><strong>Гражданство:</strong> РФ</div>
+		<div><strong>Разрешение на работу:</strong> РФ</div>
+		<div><strong>Готовность к переезду:</strong> Нет</div>
+		<div><strong>Готовность к командировкам:</strong> Нет</div>
+	</section>
+
+	<section>
+		<h2>Портфолио</h2>
+
+		<div class="project">
+			<h3>Fullstack-разработка с полным циклом: от идеи до запуска</h3>
+
+			<h4>
+				<div class="links"><a href="https://spectexmach.ru" target="_blank">Spectexmach.ru</a></div>
+				| Платформа для продажи спецтехники
+			</h4>
+			<div class="tech-stack">
+				<strong>Технологический стек:</strong>
+				<ul>
+					<li><strong>Backend:</strong> Golang, PostgreSQL</li>
+					<li><strong>Frontend:</strong> HTML5, CSS3, JavaScript, Adaptive UI</li>
+					<li><strong>Design:</strong> Figma, User Experience Design</li>
+				</ul>
+			</div>
+			<strong>Ключевые достижения и реализация:</strong>
+			<ul>
+				<li>Разработал уникальный брендинг и интерфейс, ориентированный на целевую аудиторию в B2B-сегменте</li>
+				<li>Спроектировал и реализовал высокопроизводительную серверную архитектуру на Golang</li>
+			</ul>
+		</div>
+
+		<div class="project">
+			<h4>Balder Schedule | Мобильное приложение по расписанию для студентов</h4>
+			<div class="tech-stack">
+				<strong>Технологический стек:</strong>
+				<ul>
+					<li>Flutter, Dart, Firebase (Hosting, Auth, Cloud Functions), REST API, BLoC Pattern</li>
+				</ul>
+			</div>
+			<strong>Ключевые достижения и реализация:</strong>
+			<ul>
+				<li>С нуля создал архитектуру приложения с использованием BLoC для эффективного управления состоянием
+				</li>
+				<li>Разработал адаптивный UI-кит, обеспечивающий одинаково качественное отображение на iOS и Android
+				</li>
+				<li>Интегрировал систему push-уведомлений о начале занятий</li>
+				<li>Успешно прошел процесс модерации и опубликовал приложение в RuStore, обеспечив его соответствие всем
+					требованиям платформы</li>
+			</ul>
+			<div class="links">
+				<a href="https://www.rustore.ru/catalog/app/com.eimarinin.balder_schedule" target="_blank">Ссылка в
+					RuStore</a>
+				<a href="https://balder-schedule.web.app/" target="_blank">Ссылка на WEB-версию</a>
+			</div>
+		</div>
+
+		<div class="project">
+			<h4>
+				<div class="links"><a href="https://africaway.co.ke" target="_blank">Africaway.co.ke</a></div>
+				| Корпоративный сайт
+				для
+				международного благотворительного
+				фонда
+			</h4>
+			<div class="tech-stack">
+				<strong>Технологический стек:</strong>
+				<ul>
+					<li>MODX Revolution, PHP, JavaScript, HTML5/CSS3</li>
+				</ul>
+			</div>
+			<strong>Ключевые достижения и реализация:</strong>
+			<ul>
+				<li>Провел глубокий анализ целевой аудитории и создал эмоционально вовлекающий дизайн, отражающий миссию
+					организации</li>
+				<li>Разработал уникальный логотип и визуальную идентификацию, передающую африканский колорит и
+					гуманитарную направленность</li>
+				<li>Создал адаптивную верстку, корректно отображающуюся на устройствах с медленным интернет-соединением
+				</li>
+				<li>Внедрил интуитивную систему управления контентом, позволяющую сотрудникам фонда без технических
+					знаний обновлять новости, проекты и отчеты</li>
+			</ul>
+		</div>
+
+		<div class="project">
+			<h4>
+				<div class="links"><a href="https://profkomnntu.ru" target="_blank">Profkomnntu.ru</a></div>
+				| Корпоративный портал профсоюзной организации
+			</h4>
+			<div class="tech-stack">
+				<strong>Технологический стек:</strong>
+				<ul>
+					<li>MODX Revolution, PHP, MySQL, JavaScript, Custom API</li>
+				</ul>
+			</div>
+			<strong>Ключевые достижения и реализация:</strong>
+			<ul>
+				<li>Спроектировал и реализовал сложную иерархическую структуру организации с отображением подразделений
+					и ответственных лиц</li>
+				<li>Разработал систему категоризации и тегирования документов с расширенными правами доступа для разных
+					групп пользователей</li>
+				<li>Создал модуль новостной ленты с поддержкой мультимедиа контента и системой комментариев</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="education-item">
+		<h2>Цель</h2>
+		<p>Ищу позицию Flutter-разработчика или разработчика Golang, где смогу применять свои навыки создания
+			кроссплатформенных мобильных приложений и разработки серверной части. Готов к полной занятости.</p>
+	</section>
+
+	<section class="skills-list">
+		<h2>Ключевые навыки</h2>
+		<ul>
+			<li><strong>Mobile:</strong> Flutter, Dart</li>
+			<li><strong>Backend:</strong> Golang</li>
+			<li><strong>Базы данных:</strong> PostgreSQL, MySQL, SQL</li>
+			<li><strong>Web:</strong> HTML, CSS, JavaScript, Bootstrap, Tailwind CSS</li>
+			<li><strong>Дизайн/Инструменты:</strong> Figma, UI/UX-дизайн, веб-дизайн, MODX</li>
+			<li><strong>Языки:</strong> Русский (родной), Английский (B1 - Intermediate)</li>
+		</ul>
+	</section>
+
+	<section>
+		<h2>Образование</h2>
+
+		<div class="education-item">
+			<h3>Магистратура</h3>
+			<p><strong>Нижегородский государственный технический университет им. Р.Е. Алексеева</strong></p>
+			<ul>
+				<li>Институт радиоэлектроники и информационных технологий</li>
+				<li>Направление: Прикладная математика и информатика</li>
+				<li>Год окончания: 2027</li>
+			</ul>
+		</div>
+
+		<div class="education-item">
+			<h3>Бакалавриат</h3>
+			<p><strong>Нижегородский государственный технический университет им. Р.Е. Алексеева</strong></p>
+			<ul>
+				<li>Институт радиоэлектроники и информационных технологий</li>
+				<li>Направление: Прикладная математика и информатика</li>
+				<li>Год окончания: 2025</li>
+			</ul>
+		</div>
+
+		<div class="project">
+			<h4>Тема ВКР:</h4>
+			<p>«Разработка программного обеспечения для реализации алгоритма визуализации ЭКГ-сигналов в реальном
+				времени с использованием веб-технологий»</p>
+
+			<p><strong>Технологический стек:</strong> Golang, WebSocket, JavaScript, HTML5 Canvas</p>
+
+			<h4>Научно-технические достижения и реализация:</h4>
+
+			<p><strong>Архитектурные решения:</strong></p>
+			<ul>
+				<li>Разработал микросервисную архитектуру с разделением на модуль приема данных, обработки сигналов и
+					веб-интерфейса</li>
+				<li>Реализовал высокопроизводительный WebSocket-хаб на Golang, способный обрабатывать до 100
+					одновременных подключений</li>
+				<li>Создал систему буферизации и приоритизации пакетов данных для обеспечения стабильной передачи при
+					нестабильном соединении</li>
+			</ul>
+
+			<p><strong>Алгоритмические инновации:</strong></p>
+			<ul>
+				<li>Разработал алгоритм компрессии ЭКГ-данных с сохранением диагностически значимой информации</li>
+				<li>Реализовал цифровой фильтр для подавления шумов и артефактов на основе методов цифровой обработки
+					сигналов</li>
+				<li>Создал механизм потокового рендеринга графиков с использованием HTML5 Canvas с частотой обновления
+					60 FPS</li>
+			</ul>
+
+			<p><strong>Исследовательская работа:</strong></p>
+			<ul>
+				<li>Провел сравнительный анализ протоколов передачи данных (WebSocket, Server-Sent Events, HTTP/2 Server
+					Push, Long Polling)</li>
+				<li>Доказал превосходство WebSocket по показателям задержки (latency снижена на 85% compared to
+					HTTP-polling)</li>
+				<li>Разработал методологию тестирования системы под нагрузкой с использованием кастомного сетевого
+					эмулятора</li>
+				<li>Внедрил систему мониторинга производительности с метриками задержки, потребления памяти и CPU
+					нагрузки</li>
+			</ul>
+
+			<p><strong>Практическая значимость:</strong></p>
+			<ul>
+				<li>Созданное решение демонстрирует возможность построения медицинских систем мониторинга на основе
+					веб-технологий</li>
+				<li>Доказана экономическая эффективность подхода compared to специализированному ПО</li>
+				<li>Система может быть адаптирована для использования в телемедицине и удаленном мониторинге пациентов
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="education-item">
+		<h2>Сертификаты</h2>
+		<p><strong>ЧУ ДО "Школа программистов"</strong></p>
+		<p>Выпускник 2020 года, полная трехгодичная программа</p>
+
+		<p>Успешно освоил углубленный курс с профессиональной ориентацией. Изученные дисциплины и оценки:</p>
+		<ul>
+			<li><strong>На отлично:</strong> дискретная математика, компьютерные сети, операционные системы,
+				web-разработка, функциональное программирование, практическое программирование</li>
+			<li><strong>Хорошо:</strong> объектно-ориентированное программирование на C++</li>
+		</ul>
+
+		<p><strong>Дипломный проект:</strong> разработал сервис проверки качества продуктов на Django в партнерстве с
+			Яндекс. Оценка: 5 (отлично)</p>
+	</section>
+
+	<section class="contact-info">
+		<h2>Контактная информация</h2>
+		<p><strong>Телефон:</strong> +7 (910) 146 09-95</p>
+		<p><strong>Telegram:</strong> @eimarinin</p>
+	</section>
+</body>
+
+</html>
